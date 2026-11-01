@@ -1,0 +1,27 @@
+# Documents et captures locales : jamais publiés
+*.pdf
+*.docx
+*.doc
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+~$*
+
+# Dossiers locaux du compte rendu
+capture*/
+reference/
+
+# Sortie console conservée localement
+capture-console.txt
+
+# Fichiers techniques générés
+node_modules/
+.expo/
+dist/
+build/
+*.log
+Thumbs.db
+.DS_Store
